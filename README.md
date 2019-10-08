@@ -1,4 +1,5 @@
 # quizhup
+A web quiz app
 
 ## Project setup
 ```
