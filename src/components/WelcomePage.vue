@@ -2,9 +2,9 @@
     <div class="container-fluid">
         <div class="row">
             <img class="header" src="../assets/img/genius.gif" alt="Genius">
-            <img class="headerMini" src="../assets/img/genius-min.gif" alt="GeniusMin">
+            <img class="headerMini" src="../assets/img/genius-min.gif" alt="GeniusMini">
             <div class="floor">
-                <img class="playbtn" src="../assets/img/playbtn.svg" alt="PlayButton">
+                <a href="#"><img class="playbtn" src="../assets/img/playbtn.svg" alt="PlayButton"></a>
             </div>
         </div>
     </div>
@@ -17,8 +17,6 @@ export default {
 </script>
 
 <style lang="scss">
-// @import "../scss/_mixins.scss";
-
 body
 {
     width: 100%;
@@ -36,7 +34,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    background-color: #f5f5f5;
+    background-color: $bg-color;
     position: relative;
     height: 85vh;
     min-width: 100%;
@@ -59,7 +57,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    background-color: #f5f5f5;
+    background-color: $bg-color;
     position: relative;
     height: 85vh;
     min-width: 100%;
