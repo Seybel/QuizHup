@@ -1,7 +1,9 @@
 <template>
   <div id="app">
+
     <!-- <welcome-page></welcome-page> -->
     <router-view></router-view>
+
   </div>
 </template>
 
