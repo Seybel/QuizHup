@@ -1,0 +1,77 @@
+//Definition of terms
+//********************* 
+//bg - background    *
+//mq - marquee      *
+//qh -  quizhup    *
+
+$qh-default: #2D96B0;
+$qh-height: 100%;
+$qh-width: 100%;
+
+//Colors
+$black: #333333;
+$cyan: #00b0b3;
+$blue: #0000FF;
+$dark-blue: #2a00b3;
+$dark-gray: #363636;
+$darker-gray: #303030;
+$dark-red: #b30015;
+$darkest-gray: #292929;
+$darkester-gray: #111;
+$darkish-gray: #444;
+$gray: #595959;
+$green: #00FF00;
+$light-gray: #a6a6a6;
+$other-blue: #0077b3;
+$periwinkle: #8a7dff;
+$red: #FF0000;
+$transparent-cyan: #24fbff;
+$white: #FFFFFF;
+$yellow-green: #b0eb00;
+
+
+//Hot-colors
+$bg-color: #f5f5f5;
+$error-color: #FF0000;
+$anchor-color: #2a00b3;
+$anchor-hover-color: #0077b3;
+$anchor-visited-color: #00b0b3;
+$anchor-visited-blending-color: #24fbff;
+$tooltip-color: #8a7dff;
+$emphasis-color: #a6a6a6;
+$text-color: #333333;
+$strong-color: #444;
+$username-color: #363636;
+$shadow-color: #303030;
+$border-color: #292929;
+$mq-color: #111;
+
+
+//Font-Weights
+$extra-light: 100;
+$thin: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$deep: 900;
+
+
+//Font-Styles
+$bold-font: bold;
+$italic: italic;
+$normal-font: normal;
+$oblique: oblique;
+$inherit: inherit;
+
+
+//Text-Sizes
+$xx-small: 9px;
+$small: 11px;
+$xx-regular: 13px;
+$regular: 16px;
+$big: 18px;
+$xx-big: 24px;
+$extra-big: 36px; 
