@@ -32,6 +32,8 @@ $yellow-green: #b0eb00;
 
 //Hot-colors
 $bg-color: #f5f5f5;
+$bg-google: #ea4335;
+$bg-facebook: #3b5998;
 $error-color: #FF0000;
 $anchor-color: #2a00b3;
 $anchor-hover-color: #0077b3;
@@ -39,8 +41,9 @@ $anchor-visited-color: #00b0b3;
 $anchor-visited-blending-color: #24fbff;
 $tooltip-color: #8a7dff;
 $emphasis-color: #a6a6a6;
+$label-color: #495057;
 $text-color: #333333;
-$strong-color: #444;
+$placeholder-color: #777;
 $username-color: #363636;
 $shadow-color: #303030;
 $border-color: #292929;
@@ -53,10 +56,11 @@ $thin: 200;
 $light: 300;
 $regular: 400;
 $medium: 500;
-$semi-bold: 600;
-$bold: 700;
+$xx-bold: 600;
+$semi-bold: 700;
 $extra-bold: 800;
 $deep: 900;
+$bold: bold;
 
 
 //Font-Styles
@@ -67,10 +71,10 @@ $oblique: oblique;
 $inherit: inherit;
 
 
-//Text-Sizes
+//Font-Sizes
 $xx-small: 9px;
 $small: 11px;
-$xx-regular: 13px;
+$xx-regular: 12px;
 $regular: 16px;
 $big: 18px;
 $xx-big: 24px;
