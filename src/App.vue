@@ -1,22 +1,25 @@
 <template>
   <div id="app">
-
+     
     <!-- <welcome-page></welcome-page> -->
     <router-view></router-view>
+    
 
   </div>
 </template>
 
 <script>
-import WelcomePage from "./components/WelcomePage.vue"
+  import WelcomePage from "./components/WelcomePage.vue";
+  
 
 
-export default {
-  name: "app",
-  components: {
-    'welcome-page': WelcomePage,
-  }
-};
+  export default {
+    name: "app",
+    components: {
+      'welcome-page': WelcomePage,
+    },
+    
+  };
 </script>
 
 <style lang="scss">
