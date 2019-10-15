@@ -1,14 +1,13 @@
 <template>
   <div class="container">
-    <div class="background__shapes">
-      <img class ="background__shapes--ellipse" src="../assets/img/Ellipse.png" alt="">
-      <img class ="background__shapes--vector3" src="../assets/img/Vector 3.png" alt="">
-      <img class ="background__shapes--ellipseflip" src="../assets/img/Ellipseflip.png" alt="">
-      <img class ="background__shapes--ellipse4" src="../assets/img/Ellipse 4.png" alt="">
-      <img class ="background__shapes--ellipse1" src="../assets/img/Ellipse 1.png" alt="">
-      <img class ="background__shapes--ellipse3" src="../assets/img/Ellipse 3.png" alt="">
-      <img class ="background__shapes--rectangle" src="../assets/img/Group 1.png" alt="">
-      <img class ="background__shapes--ellipse2" src="../assets/img/Ellipse 2.png" alt="">
+    <div class="background-shapes">
+      <img class ="background-shapes--ellipse" src="../assets/img/ellipse.svg" alt="">
+      <img class ="background-shapes--times" src="../assets/img/times.svg" alt="">
+      <img class ="background-shapes--ellipseflip" src="../assets/img/ellipseflip.svg" alt="">
+      <img class ="background-shapes--ellipse3" src="../assets/img/ellipse3.svg" alt="">
+      <img class ="background-shapes--ellipse1" src="../assets/img/ellipse1.svg" alt="">
+      <img class ="background-shapes--rectangle" src="../assets/img/rectangle.svg" alt="">
+      <img class ="background-shapes--ellipse2" src="../assets/img/ellipse2.svg" alt="">
     </div>
 
     <div class="row">
@@ -26,8 +25,6 @@
               </b-list-group-item> -->
              
             </b-list-group>
-            <b-button class="card-body--btn"   variant="primary" >Submit</b-button>
-            <b-button class="card-body--btn"  variant="success" > Next</b-button>
           </div>
           
         </div>
@@ -43,7 +40,8 @@
     data() {
       return {
         questions : [],
-        index: 3,
+        index: 3
+        
         
       }
 
@@ -74,7 +72,7 @@
 <style lang="scss" scoped>
 
 
-  .background__shapes{
+  .background-shapes{
     
     &--ellipse{
       position: $fixed;
@@ -84,7 +82,7 @@
   
     }
 
-    &--vector3 {
+    &--times {
       position: $relative;
       width: 20px;
       left: 70%;
@@ -97,7 +95,7 @@
       transform: rotate(300deg);
     }
 
-    &--ellipse4{
+    &--ellipse3{
       position: $fixed;
       width: 150px;
       right: 11%;
@@ -108,12 +106,6 @@
       width: 50px;
       position: $fixed;
       top: 90%;
-    }
-
-    &--ellipse3{
-      width: 50px;
-      position: $fixed;
-      top: 50%;
     }
 
     &--rectangle{
