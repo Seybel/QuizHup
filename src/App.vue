@@ -11,14 +11,11 @@
 <script>
   import WelcomePage from "./components/WelcomePage.vue";
   
-
-
   export default {
     name: "app",
     components: {
       'welcome-page': WelcomePage,
-    },
-    
+    },    
   };
 </script>
 
